@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", "Sans serif"
+}
+
+a {
+    text-decoration: none;
+}
+
+#bloc_page {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    padding: 0rem 2rem;
+}
+
+header nav {
+    display: flex;
+    flex : 1;
+    justify-content: flex-end;
+}
+
+header a {
+    padding : 2rem;
+    color: #0065FC;
+    font-weight: bold;
+    border-top: 2px solid transparent;
+}
+
+header a:hover {
+    border-top: 2px solid #0065FC;
+}
+
+main {}
+
+#section_recherches {}
+
+#section_resultats {}
+
+#section_hebergements {}
+
+#section_plus_populaires {}
+
+#section_activites {}
+
+footer {}
